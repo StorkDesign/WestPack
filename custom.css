@@ -1,0 +1,129 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+.bg-black {
+    background-color: black;
+}
+.bg-black2 {
+background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.95) 94%, rgba(0,0,0,0.95) 100%);
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.95) 94%,rgba(0,0,0,0.95) 100%);
+background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.95) 94%,rgba(0,0,0,0.95) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#f2000000',GradientType=0 );
+
+
+    left: 0;
+    right: 0;
+    bottom: 2%;
+    width: 100%;
+    margin-bottom: -20px;
+}
+.slider {
+    margin: -50px 0px 0px 0px;
+    padding: 0px;
+
+}
+.full1,.full2,.full3 {
+    min-height: 80vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.full1 {
+    background-image: url(img/1.png);
+}.full2 {
+    background-image: url(img/2.png);
+}.full3 {
+    background-image: url(img/3.png);
+}
+.about {
+    min-height: 400px;
+    padding: 100px 25px 50px 25px;
+}
+h1{
+    font-size: 30px;
+}
+.off{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.center {
+    text-align: center;
+}
+.carousel-indicators {
+    left: 55%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.slidertext{
+    left: 57%;
+    top: -180%;
+    position: absolute;
+}
+.nyellow {
+    background-color: #fce418;
+    height: auto;
+}
+.ablack {
+    background-color: #000;
+    height: auto;
+    right: 0;
+}
+.pad25{
+    padding: 25px 0px;
+}
+.pad50{
+    padding: 50px 0px;
+}
+
+.formul {
+    height: 50px;
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    color: #555555;
+    margin-top: 25px;
+}
+.formularz {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 30px;
+    padding: 50px 0px;
+}
+.sign {
+    float: right;
+    margin-top: -20px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+    border-bottom: 1px solid black;
+}
+.aboutb {
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+}
+blockquote{
+  display:block;
+  background: #fff;
+  padding: 15px 20px 15px 45px;
+  margin: 0 0 20px;
+  position: relative;
+  font-family: Georgia, serif;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #666;
+    border-right: 1px solid #e6e6e6;
+}
+blockquote::before{
+  content: "\201C";
+  font-family: Georgia, serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #999;
+  position: absolute;
+  left: 10px;
+  top:5px; 
+}
