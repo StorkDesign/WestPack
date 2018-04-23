@@ -1,16 +1,20 @@
-body {
+html, body {
     font-family: 'Lato', sans-serif;
+    padding-top: 55px;
+    min-height: 100%;
+    position: relative;
 }
 .bg-black {
     background-color: black;
 }
+.test {
+    color: #fff;
+}
 .bg-black2 {
-background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.95) 94%, rgba(0,0,0,0.95) 100%);
-background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.95) 94%,rgba(0,0,0,0.95) 100%);
-background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.95) 94%,rgba(0,0,0,0.95) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#f2000000',GradientType=0 );
 
-
+    background-image: url(img/gradient.png);
+    
+    background-size: cover;
     left: 0;
     right: 0;
     bottom: 2%;
@@ -18,7 +22,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
     margin-bottom: -20px;
 }
 .slider {
-    margin: -50px 0px 0px 0px;
+    margin: -100px 0px 0px 0px;
     padding: 0px;
 
 }
@@ -75,6 +79,12 @@ h1{
 .pad50{
     padding: 50px 0px;
 }
+.pad50_00{
+    padding: 50px 0px 0px 0px;
+}
+.pad50_25{
+    padding: 50px 0px 25px 0px;
+}
 
 .formul {
     height: 50px;
@@ -127,3 +137,128 @@ blockquote::before{
   left: 10px;
   top:5px; 
 }
+.jar {
+    float: left;
+    display: block;
+    line-height: 18px;
+    padding: 15px 0px 15px 15px;
+}
+.opinion {
+    background-color: #f6f6f6;
+}
+.bordop {
+    border: none;
+}
+.opborder {
+    border-bottom: 1px solid #e6e6e6;
+    margin-left: -15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.img {
+    clear: both;
+    height: 70px;
+}
+.footer {
+    background-color: #000;
+    color: #bdbdbd;
+    font-weight: 300;
+    line-height: 18px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+
+}
+.stroke {
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+.over a{
+    color: #bdbdbd;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 26px;
+}
+.over {
+    padding-top: 10px;
+}
+.produkty h3 {
+    color: black;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-weight: 700;
+}
+.produkty a:hover { 
+    text-decoration: none;
+}
+.img-thumbnail {
+    border: none;
+}
+.content {
+    position: absolute;
+    height: 100%;
+}
+.carousel-caption {
+    left: 28%;
+    bottom: 2.5%;
+}
+.carousel-indicators li {
+    width: 13px;
+    height: 13px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.noned {
+    text-decoration: none;
+    color: black;
+}
+.noned:hover {
+    text-decoration: none;
+    color: black;
+    opacity: 0.8;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .carousel-indicators {
+    left: 0;
+    right: 0;
+}
+    .carousel-caption, h3 {
+        font-size: 24px;
+        left: 0;
+        right: 0;
+    }
+    .full1,.full2,.full3 {
+    min-height: 60vh;
+    }
+    .formularz {
+        width: 90%;
+    }   
+}
+@media only screen and (max-width: 575px) {
+    .carousel-caption, h3 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+}
+@media only screen and (min-width:768px) and (max-width: 1220px) {
+.carousel-caption {
+    left: 22%;
+    bottom: 2.5%;
+}
+    .carousel-indicators {
+     left: 43%;   
+    }
+}
+@media only screen and (max-width: 950px) {
+.carousel-caption, h3 {
+        font-size: 24px;
+        font-weight: 700;
+    }
+}
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; } /* Firefox 18- */
+input:focus::-moz-placeholder { color:transparent; } /* Firefox 19+ */
+input:focus:-ms-input-placeholder { color:transparent; } /* oldIE ;) */
