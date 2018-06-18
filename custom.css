@@ -218,8 +218,28 @@ blockquote::before{
     color: black;
     opacity: 0.8;
 }
-
-
+.cont {
+    margin: 10px;
+    height: 45px;
+    width: 32%;
+    padding: 10px;
+}
+.cont2 {
+    margin: 10px;
+    min-height: 200px;
+    width: 66%;
+    padding: 10px;
+}
+.butt{
+    margin: 10px;
+    height: 55px;
+    width: 66%;
+    padding: 10px;
+    background-color: #000;
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+}
 @media only screen and (max-width: 767px) {
     .carousel-indicators {
     left: 0;
